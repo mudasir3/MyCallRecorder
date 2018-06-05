@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_allrecord"
+            android:icon="@drawable/ic_view_list_black_24dp"
+            android:title="@string/all_record" />
+        <item
+            android:id="@+id/nav_call_in"
+            android:icon="@drawable/call_in"
+            android:title="@string/call_in"/>
+        <item
+            android:id="@+id/nav_call_out"
+            android:icon="@drawable/call_out"
+            android:title="@string/call_out"/>
+        <item
+            android:icon="@drawable/cloud"
+            android:id="@+id/cloud"
+            android:title="@string/cloud_storage"/>
+        <item
+            android:icon="@drawable/ic_menu_manage"
+            android:id="@+id/settings"
+            android:title="@string/action_settings"/>
+        <!--<item-->
+            <!--android:id="@+id/nav_gallery"-->
+            <!--android:icon="@drawable/ic_menu_gallery"-->
+            <!--android:title="Gallery" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_slideshow"-->
+            <!--android:icon="@drawable/ic_menu_slideshow"-->
+            <!--android:title="Slideshow" />-->
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/rate"
+                android:title="@string/rate" />
+        </menu>
+    </item>
+
+</menu>

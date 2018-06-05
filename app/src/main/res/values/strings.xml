@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Record Call</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_excludelist">Exclude List</string>
+    <string name="action_about">About</string>
+    <string name="action_whitelist">White List</string>
+
+    <string name="pref_incoming_calls">Record Incoming Calls</string>
+    <string name="pref_outgoing_calls">Record Outgoing Calls</string>
+    <string name="pref_storage_category">Storage</string>
+    <string name="pref_location">Storage:</string>
+    <string name="pref_folder_name">Folder: \"calls\"</string>
+    <string name="pref_folder_total_files"><![CDATA[Total Recordings: <b>%d</b>]]></string>
+    <string name="pref_folder_total_files_size"><![CDATA[Total used storage: <b>%d KB</b>]]></string>
+    <string name="pref_folder_total_folder_size"><![CDATA[Available storage: <b>%1.2f MB</b>]]></string>
+    <string name="pref_automatic_cleaning_category">Automatic Cleaning</string>
+    <string name="pref_automatic_cleaning_frequency">Delete Record Older Then:</string>
+    <string name="pref_automatic_cleaning_now">Clean Now</string>
+    <string name="pref_recording_category">Recording</string>
+    <string name="pref_notification_category">Controls</string>
+    <string-array name="pref_frequencies">
+        <item name="never">Never</item>
+        <item name="daily">Daily</item>
+        <item name="3days">Every 3 days</item>
+        <item name="weekly">Weekly</item>
+        <item name="monthly">Monthly</item>
+        <item name="quarterly">Quarterly</item>
+    </string-array>
+
+    <string name="permission_whitelist">The Exlcude List requires permission to read your contacts. Please grant "Read Contacts" permission to this app.</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="menu_Enable_record">Enable Record</string>
+    <string name="menu_Disable_record">Disable Record</string>
+    <string name="title_activity_main">Call recorder for android</string>
+    <string name="list_play_your_recordeed_call">play your recorded call</string>
+    <string name="list_send_your_recordeed_call">send your recorded call</string>
+    <string name="list_erase_your_recordeed_call">erase your recorded call</string>
+    <string name="receiver_start_call">Start record call</string>
+    <string name="receiver_end_call">End Record call</string>
+    <string name="confirm_delete_title">Call deletion</string>
+    <string name="confirm_delete_text">Are you sure you want to delete this recording?</string>
+    <string name="confirm_delete_yes">Yes</string>
+    <string name="confirm_delete_no">No</string>
+    <string name="options_title">Recording options</string>
+    <string name="options_delete">Delete</string>
+    <string name="confirm_play">Play</string>
+    <string name="confirm_send">Send</string>
+    <string name="sendMail_subject">Your record from your phone</string>
+    <string name="sendMail_body">This is a call record from your phone</string>
+    <string name="about_title">About</string>
+    <string name="about_content">Call recorder by Kobi Krasnoff and Raul Robledo</string>
+    <string name="about_close_button">Close</string>
+    <string name="send_mail">Send Mail</string>
+    <string name="withheld_number">Withheld Number</string>
+    <string name="menu_record_is_now_enabled">Call recording enabled</string>
+    <string name="menu_record_is_now_disabled">Call recording disabled</string>
+    <string name="no_records_message">There are no recordings in this phone.\nTo enable record ability open the main menu and choose \"Enable call recording\".\nAfter that the application will record all your incoming and outgoing calls.</string>
+    <string name="radio_Enable_record">Enable call recording</string>
+    <string name="radio_Disable_record">Disable call recording</string>
+    <string name="textview_startup">Please choose if the application should record your calls.\nYou can always enable or disable recording by pressing the Android menu button.</string>
+    <string name="dialog_welcome_screen">Welcome Screen</string>
+    <string name="dialog_no_memory">There is no memory card in your device.\nPlease install one.</string>
+    <string name="dialog_close">Close</string>
+    <string name="menu_terms">Terms of use</string>
+    <string name="menu_privacy_policy">Privacy Policy</string>
+    <string name="dialog_terms">Terms of use</string>
+    <string name="dialog_privacy">Privacy Policy</string>
+    <string name="dialog_privacy_terms">Please click the buttons below to see the terms of use and privacy policy</string>
+    <string name="menu_delete_all">Delete All recordings</string>
+    <string name="dialog_delete_all_title">Delete everything?</string>
+    <string name="dialog_delete_all_content">Are you sure you want to delete all of your recordings?</string>
+    <string name="dialog_delete_all_yes">Yes</string>
+    <string name="dialog_delete_all_no">No</string>
+    <string name="notification_ticker">Recording is now Starting</string>
+    <string name="notification_title">The phone is now on a call</string>
+    <string name="notification_text">If recording was enabled, recording should have started, if not you can enable recording in the application, the phone will stop the recording when the conversation ends</string>
+    <string name="record_impossible">Unfortunately, it is not possible to record calls in this device. (Usually because another application/service is using the microphone in the background)</string>
+    <string name="confirm_speaker">You should open speaker, enter yes to open?</string>
+    <string name="upload_success">Upload Success to CloudStorage</string>
+    <string name="all_record">All Record</string>
+    <string name="call_in">Call In</string>
+    <string name="call_out">Call Out</string>
+    <string name="cloud_storage">Cloud Storage</string>
+    <string name="share">Share</string>
+    <string name="rate">Rate</string>
+    <string name="communicate">Communicate</string>
+
+    //ads
+    <string name="app_id">ca-app-pub-2932805193551960~9284178532</string>
+    <string name="ad_unit_banner">ca-app-pub-2932805193551960/1760911736</string>
+    <string name="ad_unit_full">ca-app-pub-2932805193551960/8865376137</string>
+
+    //in app billing
+    <string name="key_billing">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjNVUVCOTxmnDax5d1u6jSHsYIgp4K5+jMWFvSeLCz8F2i2TX3qi7EZWTKTVEfR7zpFba+U2qijTcm2G70oxBXWL/fH9Riwn9zbcI8sOxOeSEyIZgPvT1Qwi1DwVeg2LP4FG1kQNG8qbKxUfMkyeRJyKPMI7y1AVvEL+yR9XuhAMHvNttwk6de21mDnyUr5Y6f300jOx70BZfMZ4BzXGWqjikrEkw3cR2zcl6oE7A4MbO/NQGWTaSPlaMOmYnqmAj7eSX5+ktdfXwkcbW6126McEw8DvL3a6w9UYxj5YmMhAvCC6nNZltP8hpsgGjMMsjGRgGhYT0wkyGx+Ae+8CHgwIDAQAB</string>
+    <string name="permission_whitelist_title">Missing Permission</string>
+    <string name="about_app"><![CDATA[<string name=\"about_app\"><![CDATA[<b><big>About This App!</big></b><br>]]></string>
+    <string name="about_version">Version:</string>
+    <string name="about_model">OVERRIDE_FOR_MODEL</string>
+    <string name="about_deviceid">OVERRIDE_FOR_DEVICE_ID</string>
+
+    <string name="str_access_permissions">Call Recorder needs access to your contacts to identify your call recordings and prevent selected contacts from being recorded.</string>
+
+    <string name="delete_recording_title">Delete Recording</string>
+    <string name="delete_recording_subject">Are you sure you want to delete the recording(s)?</string>
+    <string name="delete_whitelist_title">Remove Contact</string>
+    <string name="delete_whitelist_subject">Are you sure you want to remove this excluded contact(s)?</string>
+    <string name="delete_all_recording_subject">Are you sure you want to delete ALL the recordings?</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="action_add">Add Contact</string>
+    <string name="action_delete">Delete Selected</string>
+
+
+    <string name="action_remove">Remove Contact</string>
+</resources>

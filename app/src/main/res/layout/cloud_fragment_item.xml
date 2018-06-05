@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_marginBottom="1dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp">
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="64dp"
+            android:layout_height="64dp">
+            <ImageView
+                android:layout_centerInParent="true"
+                android:src="@drawable/videogp"
+                android:layout_width="32dp"
+                android:layout_height="32dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/tvName"
+                android:layout_marginLeft="20dp"
+                android:text="File name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvSize"
+                android:layout_below="@id/tvName"
+                android:layout_marginLeft="20dp"
+                android:text="File name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
